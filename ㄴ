@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>警視庁 - 平成七年 特別記録保管室</title>
+
+<style>
+body{
+    margin:0;
+    background:#dcdcdc;
+    color:#000;
+    font-family:
+    "MS Gothic",
+    "ＭＳ ゴシック",
+    monospace;
+}
+
+#container{
+    width:900px;
+    margin:20px auto;
+    border:2px solid #000080;
+    background:#ffffff;
+}
+
+header{
+    background:#000080;
+    color:white;
+    padding:20px;
+}
+
+header h1{
+    margin:0;
+    font-size:32px;
+    letter-spacing:2px;
+}
+
+header p{
+    margin:5px 0 0 0;
+    font-size:12px;
+}
+
+nav{
+    background:#e5e5e5;
+    border-top:1px solid #000080;
+    border-bottom:1px solid #000080;
+    padding:8px;
+    text-align:center;
+}
+
+nav a{
+    color:#000080;
+    text-decoration:none;
+    margin:0 15px;
+    font-weight:bold;
+}
+
+.notice{
+    margin:20px;
+    border:2px solid red;
+    padding:15px;
+    background:#fff8f8;
+}
+
+.blink{
+    color:red;
+    font-weight:bold;
+    animation:blink 1s infinite;
+}
+
+@keyframes blink{
+    50%{
+        opacity:0;
+    }
+}
+
+.section{
+    margin:20px;
+}
+
+.section-title{
+    background:#000080;
+    color:white;
+    padding:5px 10px;
+    font-weight:bold;
+}
+
+.content{
+    border:1px solid #999;
+    padding:15px;
+    background:white;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+td{
+    border:1px solid #999;
+    padding:8px;
+}
+
+footer{
+    text-align:center;
+    padding:15px;
+    font-size:12px;
+    color:#444;
+    border-top:1px solid #999;
+}
+
+.counter{
+    text-align:right;
+    font-size:12px;
+    padding:5px 20px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+<h1>警視庁</h1>
+<p>TOKYO METROPOLITAN POLICE DEPARTMENT</p>
+<p>平成七年 特別記録保管室</p>
+</header>
+
+<nav>
+<a href="#">TOP</a>
+<a href="#">世界観</a>
+<a href="#">所属一覧</a>
+<a href="#">公知事項</a>
+<a href="#">申請書</a>
+</nav>
+
+<div class="counter">
+Visitor : 000001
+</div>
+
+<div class="notice">
+<div class="blink">■ 緊急指令 発令中 ■</div>
+
+<p>
+平成七年六月十五日 午前〇時〇七分
+</p>
+
+<p>
+本庁舎内において重大事案発生。
+全職員は持ち場にて待機されたし。
+</p>
+</div>
+
+<div class="section">
+
+<div class="section-title">
+警視庁について
+</div>
+
+<div class="content">
+
+<p>
+도쿄도의 치안을 담당하는 일본 최대 규모의 경찰 조직.
+</p>
+
+<p>
+수많은 사건과 범죄가 모여드는 곳.
+그리고, 수많은 비밀이 잠든 곳.
+</p>
+
+<p>
+평범한 하루였다.
+그날 새벽, 경시청 본청이 봉쇄되기 전까지는.
+</p>
+
+</div>
+</div>
+
+<div class="section">
+
+<div class="section-title">
+所属一覧
+</div>
+
+<div class="content">
+
+<table>
+
+<tr>
+<td>刑事部</td>
+<td>형사부</td>
+</tr>
+
+<tr>
+<td>公安部</td>
+<td>공안부</td>
+</tr>
+
+<tr>
+<td>警備部</td>
+<td>경비부</td>
+</tr>
+
+<tr>
+<td>交通部</td>
+<td>교통부</td>
+</tr>
+
+<tr>
+<td>生活安全部</td>
+<td>생활안전부</td>
+</tr>
+
+</table>
+
+</div>
+</div>
+
+<div class="section">
+
+<div class="section-title">
+事件記録
+</div>
+
+<div class="content">
+
+<p>
+No.001
+</p>
+
+<p>
+本庁舎封鎖命令 発令
+</p>
+
+<p>
+현재 열람 가능한 기록이 존재하지 않습니다.
+</p>
+
+</div>
+</div>
+
+<footer>
+
+警視庁 特別記録保管室<br>
+Last Update : 1995.06.15
+
+</footer>
+
+</div>
+
+</body>
+</html>
